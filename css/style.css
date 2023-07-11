@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.banner{
+    padding:  30px 0px 0px 150px;
+    align-items: center;
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    justify-content: space-between;
+
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.banner-discription{
+    color:  #474747;
+}
+.banner-profile{
+    width: 400px;
+    margin-right: 100px
+   
+
+}
+.btn{
+    margin-top: 20px;
+    padding: 20px 43px;
+    color: #fff;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+
+/* main styles */
+
+.header{
+    text-align: center;
+}
+.header h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 24px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.header p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Future Photo */
+.future-photo{
+    display: flex;
+    gap:  24px;
+    align-items: center;
+    margin: 150px 240px;
+} 
+
+.photo1{
+    background: #A7216226;
+    width:200px;
+    height: 200px;
+    border-radius:50% 50% 0 0 ;
+    padding: 100px  40px 0;
+    margin-bottom: 10px;
+}
+.photo2{
+    background: #0597A026;
+    width:200px;
+    height: 200px;
+    border-radius:50% 50% 0 0 ;
+    padding: 100px  40px 0;
+    margin-bottom: 10px;
+}
+.photo3{
+    background: #477D1126;
+    width:200px;
+    height: 200px;
+    border-radius:50% 50% 0 0 ;
+    padding: 100px  40px 0;
+    margin-bottom: 10px;
+}
+.ima{
+    height: 200px ;
+    width: 200px;
+
+}
+.aa{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #272727;
+    font-size: 24px;
+}
+/* Optional Design */
+
+.optional-design{
+    display: flex;
+    background: #2727270D;
+    margin: 30px 240px;
+    padding: 60px;
+    gap: 12px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+.opi{
+    height: 72px;
+    width: 72px;
+}
+.opd{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 15px;
+}
+.oooo{
+    text-align: center;
+}
+
+/* Hot Deal Style */
+
+.hot-deal{
+    display: flex;
+    gap: 50px;
+    margin:100px 0 ;
+    padding: 50px 240px;
+    background: #E554730D;
+    align-items: center;
+}
+.hd-head{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+.hd-des{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* instagram Section */
+.instagram{
+    margin-top: -20px;
+}
+.instagram h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.instagram p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Flower List */
+
+.flower-list{
+    display:flex ;
+    gap: 24px;
+    margin: 48px 240px;
+}
+.flower-list img{
+    width: 200px;
+    height: 200px;
+}
+
+/* Get The Latest Deals */
+
+.gtld{
+    text-align: center;
+    background-image: url(../image/Rectangle\ 9.png);
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:100px 240px;
+    height: 300px;
+
+}
+.gtld h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    top: 50px;
+    margin-bottom: 5px;
+}
+.gtld p,input{
+    position: relative;
+    margin-bottom: 5px;
+    top: 50px;
+}
+.gtld input{
+    height: 55px;
+    width: 450px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: -162px;
+    
+}
+.bt{
+    margin-top: 60px;
+    padding: 20px 43px;
+    color: #fff;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    position: absolute;
+    margin-left: 10px;
+}
+
+/* Footer Design */
+
+.foot{
+    text-align: center;
+    height: 350px;
+    background-color:#111010
+}
+.foot-header{
+    padding-top: 100px;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+.foot-dis{
+    color: #FFFFFFE5;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.copy{
+    color:#FFFFFF66;
+    font-size: 16px;
+    font-size: small;
+}
